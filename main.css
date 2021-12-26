@@ -5,4 +5,37 @@ height: 100vh;
 background-image: url("https://i1.wp.com/static.web-backgrounds.net/uploads/2012/08/City_Landscape_Background.jpg");
 background-size: cover;
 background-repeat: no-repeat;
+flex:
+}
+
+.container {
+  background-color: gray;
+  min height: 100vh;
+}
+
+.container > .item {
+  justify-content: start;
+}
+
+#header .container .item img {
+  width: 4rem;
+  padding-right: 25px;
+}
+
+#header .container .item img {
+  width: 4rem;
+  padding-right: 25px;
+}
+
+#header .container .item {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#header .container .item div h1 {
+  text-align: left;
+}
+
+#header .container .item  p {
+  text-align: center;
 }
